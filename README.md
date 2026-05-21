@@ -2,23 +2,23 @@
 
 ## 실행 방법
 ---
-Master 잿슨나노
+## Master 잿슨나노
 
   - cd ~/git_master/operation/odom/auto
   - bash run_master_auto_path_keyboard.sh
 
-구성:
+## 구성:
 
   - Slamtec IMU 실행
   - 마스터 바퀴 제어 브리지 실행
   - /cmd_vel 기반 마스터 odometry/path 생성
   - 키보드 조종 실행
 ---
-Slave - 라파4
+## Slave - 라파4
   - cd ~/git_slave/operation/odom/auto
   - bash run_slave_auto_path_follow.sh
 
-구성:
+## 구성:
 
   - EBIMU yaw 수신
   - 마스터 UDP path 수신
@@ -27,7 +27,7 @@ Slave - 라파4
   - 초음파 장애물 정지
   - 모터 제어 실행
 ---
-사용 로직:
+## 사용 로직:
 
 1. 마스터 키보드 주행
 
