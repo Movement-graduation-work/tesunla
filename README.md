@@ -4,7 +4,7 @@
 ---
 Master 잿슨나노
 
-  - cd ~/git_master/operation/odom/auto <br>
+  - cd ~/git_master/operation/odom/auto
   - bash run_master_auto_path_keyboard.sh
 
 구성:
@@ -15,8 +15,8 @@ Master 잿슨나노
   - 키보드 조종 실행
 ---
 Slave - 라파4
-cd ~/git_slave/operation/odom/auto
-bash run_slave_auto_path_follow.sh
+  - cd ~/git_slave/operation/odom/auto
+  - bash run_slave_auto_path_follow.sh
 
 구성:
 
