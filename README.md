@@ -2,9 +2,10 @@
 
 ## 실행 방법
 ---
-Master - 잿슨나노
-cd ~/git_master/operation/odom/auto
-bash run_master_auto_path_keyboard.sh
+Master 잿슨나노
+
+  - cd ~/git_master/operation/odom/auto <br>
+  - bash run_master_auto_path_keyboard.sh
 
 구성:
 
